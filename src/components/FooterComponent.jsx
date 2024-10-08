@@ -13,7 +13,7 @@ const FooterComponent = () => {
   // Generate the QR Code once the component loads
   useEffect(() => {
     generateQRCode();
-  }, []);
+  }, [])
 
   const generateQRCode = async () => {
     try {
