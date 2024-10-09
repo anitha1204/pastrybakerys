@@ -224,7 +224,7 @@ import img9 from "../assets/IMG_8601.JPG";  // Replace with your image paths
 
 
 
-const images = [img1, img2, img3, img4,img5,img6,img7,img8,img9];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
 const BakeryBanner = () => {
 
@@ -290,26 +290,26 @@ const BakeryBanner = () => {
                     ))}
                 </Slider> */}
                 <Slider {...settings}>
-  {images.map((image, index) => (
-    <div key={index} className="w-full h-full">
-      <img
-        src={image}
-        alt={`Slide ${index + 1}`}
-        className="
-          w-full
-          object-cover
-          h-[653px]                   
-          sm:h-[653px]                
-          md:h-[600px]                
-          lg:h-[700px]               
-          xl:h-[775px]                
-          2xl:h-[868px]               
-          3xl:h-[996px]              
-        "
-      />
-    </div>
-  ))}
-</Slider>
+                    {images.map((image, index) => (
+                        <div key={index} className="w-full h-full">
+                            <img
+                                src={image}
+                                alt={`Slide ${index + 1}`}
+                                className="
+                                    w-full
+                                    object-cover
+                                    h-[653px]                   
+                                    sm:h-[653px]                
+                                    md:h-[600px]                
+                                    lg:h-[700px]               
+                                    xl:h-[775px]                
+                                    2xl:h-[868px]               
+                                    3xl:h-[996px]              
+                                "
+                            />
+                          </div>
+                       ))}
+                  </Slider>
 
 
 
@@ -331,7 +331,7 @@ const BakeryBanner = () => {
                             JOIN OUR 2-MONTH PROFESSIONAL COURSE IN PASTRY & BAKERY
                         </p>
                         <p className="text-white text-base md:text-2xl mb-6">
-                            AND EARN YOUR CERTIFICATION.
+                            AND ELEVATE YOUR SKILLS TO THE NEXT LEVEL.
                         </p>
 
                         <button
